@@ -13,13 +13,17 @@
 
     <fragment
         android:id="@+id/user_bottom_nav_menu"
-        android:name="com.amcarlos.we1.ui.fragments.dashboard.DashboardFragment"
+        android:name="com.amcarlos.we1.ui.fragments.user.UserFragment"
         android:label="My Info"
-        tools:layout="@layout/fragment_dashboard" />
+        tools:layout="@layout/fragment_user" />
 
     <fragment
         android:id="@+id/finances_bottom_nav"
-        android:name="com.amcarlos.we1.ui.fragments.notifications.NotificationsFragment"
+        android:name="com.amcarlos.we1.ui.fragments.finances.FragmentFinances"
         android:label="Finances"
-        tools:layout="@layout/fragment_notifications" />
+        tools:layout="@layout/fragment_finances" />
+    <fragment android:id="@+id/finances_bottom_people"
+        android:name="com.amcarlos.we1.ui.fragments.team.TeamFragment"
+        android:label="The Team"
+        tools:layout="@layout/fragment_team"/>
 </navigation>
