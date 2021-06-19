@@ -1,12 +1,12 @@
-package com.amcarlos.we1.activities
+package com.amcarlos.we1.ui.activities
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import com.amcarlos.we1.R
 
-class LoginActivity : AppCompatActivity() {
+class SettingsActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_login)
+        setContentView(R.layout.activity_settings)
     }
 }
